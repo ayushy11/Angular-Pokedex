@@ -1,0 +1,81 @@
+.poke-card-container {
+  padding: 24px;
+  height: 100%;
+  display: grid;
+  overflow-y: auto;
+  align-items: center;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 24px;
+}
+
+.poke-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px #a6ffe3;
+}
+
+.poke-card {
+  padding: 10px;
+}
+
+.type {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 550;
+  color: white;
+}
+
+.normal {
+  background-color: #a8a878;
+}
+.fire {
+  background-color: #f08030;
+}
+.fighting {
+  background-color: #c03028;
+}
+.water {
+  background-color: #6890f0;
+}
+.grass {
+  background-color: #78c850;
+}
+.poison {
+  background-color: #a040a0;
+}
+.electric {
+  background-color: #f8d030;
+}
+.ground {
+  background-color: #e0c068;
+}
+.rock {
+  background-color: #b8a038;
+}
+.bug {
+  background-color: #a8b820;
+}
+.dragon {
+  background-color: #7038f8;
+}
+.ghost {
+  background-color: #705898;
+}
+.dark {
+  background-color: #3d3129;
+}
+.fairy {
+  background-color: #ee99ac;
+}
+.steel {
+  background-color: #b8b8d0;
+}
+.psychic {
+  background-color: #f85888;
+}
+.ice {
+  background-color: #98d8d8;
+}
+.flying {
+  background-color: #a890f0;
+}

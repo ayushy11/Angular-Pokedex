@@ -1,0 +1,10 @@
+.poke-container {
+  height: 100%;
+  width: 100%;
+}
+
+.search-input {
+  padding: 5px;
+  font-size: medium;
+  text-decoration: none;  
+}

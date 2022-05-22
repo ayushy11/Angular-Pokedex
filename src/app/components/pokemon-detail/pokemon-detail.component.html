@@ -1,0 +1,20 @@
+<ng-container *ngIf="pokeData$ as pokemon">
+  <mat-card *ngFor="let poke of pokemon" class="poke-container">
+    <div>
+      <div style="text-transform: capitalize">
+        {{ poke.id }}: {{ poke.name }} Shiny
+      </div>
+      <button type="button" class="poke-btn" (click)="goBack()">Go Back</button>
+    </div>
+    <div>
+      <img
+        src="{{ poke.sprites.other.home.front_shiny }}"
+        alt="Photo of a Pokemon"
+        class="poke-img"
+      />
+    </div>
+    <div>
+      <p>{{ poke.species.name }}: {{ poke.species.url }}</p>
+    </div>
+  </mat-card>
+</ng-container>
